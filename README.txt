@@ -13,3 +13,10 @@ To test the photo localization function.
 4 unload act
 5 press key 1 to show first photo, 2 to show second etc.
 6 press key Q and W to change the angle of view.
+
+
+To compute the photo localization
+1. load act
+2. In the File menu, select photo
+3. After the file dialogue, the result will be saved in the same directory as image directory, and it is named after first and last image file name.
+4. then you can load txt to view the result.

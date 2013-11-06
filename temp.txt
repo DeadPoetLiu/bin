@@ -1,0 +1,9 @@
+seq_directory = H:\model\00856\
+seq_file_name = test.act
+img_directory = H:\model\00856\images\
+img_file_name = DSC00000.JPG
+img_start_frame = 1284
+img_step_frame = 1
+img_end_frame = 1295
+output_file_name = DSC01284-DSC01295.txt
+param_img_registration_file_name=H:\GitHub\ImageRegistration\x64\Release\param_img_registration.txt

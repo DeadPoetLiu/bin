@@ -1,0 +1,21 @@
+
+seq_directory = F:\Data\Monocular\Singapore\Street\
+seq_file_name = seq_0-5-1633_cam_tracking.txt
+
+//img_file_name = F:\Data\Monocular\Singapore\Street\images\DSC01284.JPG
+
+img_directory = F:\Data\Monocular\Singapore\Street\images\
+img_file_name = DSC00000.JPG
+img_start_frame = 1284
+img_step_frame = 1
+img_end_frame = 1295
+output_file_name = test.txt
+
+//img_directory = F:\Data\Monocular\Wall\
+//img_file_name = rect0000.jpg
+//img_start_frame = 1
+//img_step_frame = 1
+//img_end_frame = 4
+//output_file_name = test.txt
+
+param_img_registration_file_name = D:\Program\ImageRegistration\x64\Release\param_img_registration.txt

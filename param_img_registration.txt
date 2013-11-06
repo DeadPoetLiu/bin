@@ -1,0 +1,69 @@
+
+image_size_scale_factor = 0.25
+
+feature_texture_width = 64
+feature_min_distance = 10
+
+//sift_max_features_number = 16382
+//sift_max_features_number = 8192
+sift_max_features_number = 4096
+//sift_max_features_number = 2048
+//sift_max_features_number = 1024
+//sift_max_features_number = 512
+//sift_octaves_number = 8
+//sift_octaves_number = 6
+sift_octaves_number = 5
+//sift_octaves_number = 3
+sift_dog_levels_number = 5
+//sift_dog_levels_number = 3
+sift_upsample_image = 0
+sift_matching_descriptor_dot_product_threshold = 0.95
+sift_matching_descriptor_nearest_first_to_second_ratio_threshold = 0.9
+
+kf_min_common_tracks_number_two_key_frames = 10000
+kf_min_common_tracks_number_three_key_frames = 8000
+//kf_min_common_tracks_number_two_key_frames = 1000
+//kf_min_common_tracks_number_three_key_frames = 800
+//kf_min_common_tracks_number_two_key_frames = 800
+//kf_min_common_tracks_number_three_key_frames = 500
+//kf_min_common_tracks_number_two_key_frames = 500
+//kf_min_common_tracks_number_three_key_frames = 300
+//kf_min_common_tracks_number_two_key_frames = 300
+//kf_min_common_tracks_number_three_key_frames = 200
+coarse_matching_track_length_key_frame = 3
+//coarse_matching_max_descriptors_number_per_texture = 2048
+coarse_matching_max_descriptors_number_per_texture = 1024
+
+enft_max_iterations_number_initial_matching_matrix = 100
+enft_max_iterations_number_updating_matching_matrix = 10000
+enft_min_confidence_initial_matching_matrix_ratio = 0.1
+//enft_min_confidence_updating_matching_matrix = 50
+//enft_min_confidence_updating_matching_matrix = 20
+enft_min_confidence_updating_matching_matrix = 10
+enft_positive_voting_threshold = 5
+enft_positive_voting_ratio_threshold = 0.8
+enft_merge_distance_threshold = 2.0
+
+//error_threshold_epipolar = 2.0
+error_threshold_epipolar = 4.0
+error_threshold_reprojection = 20.0
+error_threshold_reprojection_start = 4.0
+error_threshold_reprojection_step = 0.5
+//error_threshold_reprojection_end = 6.0
+error_threshold_reprojection_end = 20.0
+
+ransac_min_iterations_number_epipolar = 100
+ransac_max_iterations_number_epipolar = 300
+ransac_min_iterations_number_camera = 150
+ransac_max_iterations_number_camera = 300
+ransac_min_inliers_number_camera = 10
+
+//sfm_min_camera_inlier_ratio_start = 0.6
+//sfm_min_camera_inlier_ratio_step = -0.05
+//sfm_min_camera_inlier_ratio_end = 0.1
+sfm_min_camera_inlier_ratio_start = 0.9
+sfm_min_camera_inlier_ratio_step = -0.05
+sfm_min_camera_inlier_ratio_end = 0.6
+
+stop = 1
+view = 0
