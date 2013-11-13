@@ -20,3 +20,9 @@ To compute the photo localization
 2. In the File menu, select photo
 3. After the file dialogue, the result will be saved in the same directory as image directory, and it is named after first and last image file name.
 4. then you can load txt to view the result.
+
+
+To load another model
+1. choose the load another model item in the file menu
+2. int the file dialogue select the model
+
